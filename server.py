@@ -22,7 +22,7 @@ app = Flask(__name__)
 # Permitir peticiones desde tu frontend (Netlify)
 CORS(app, origins=[
     "https://nasdaqsentimenttracker.netlify.app",
-    "http://localhost:3000",
+    "https://splendid-sherbet-00da96.netlify.app",   
     "http://127.0.0.1:3000",
     "*"  # Para desarrollo (quitar en producción)
 ])
