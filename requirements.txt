@@ -1,0 +1,27 @@
+# ============================================
+# REQUISITOS DEL PROYECTO
+# ============================================
+# Instalar con: pip install -r requirements.txt
+
+# Framework web
+flask==3.0.0
+flask-cors==4.0.0
+
+# Para hacer peticiones HTTP
+requests==2.31.0
+
+# Para Reddit API (opcional, si quieres usar la versión avanzada)
+praw==7.7.1
+
+# Para análisis de sentimiento más avanzado (opcional)
+# textblob==0.17.1
+# nltk==3.8.1
+
+# Para servidor de producción
+gunicorn==21.2.0
+
+# Para manejo de fechas
+python-dateutil==2.8.2
+
+# Para variables de entorno
+python-dotenv==1.0.0
